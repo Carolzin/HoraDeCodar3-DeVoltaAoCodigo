@@ -6,36 +6,6 @@
     <title>Exercicio 5</title>
 </head>
 <body>
-    
 </body>
-<script>
-    //5 - Faça um algoritmo que calcule e escreva a média aritmética dos dois números inteiros informados pelo usuário e todos os números inteiros entre eles. Considere que o primeiro sempre será menor que o segundo.
-
-    //entrada
-    var num1 = parseInt(prompt("Informe o primeiro valor: "));
-    var num2 = parseInt(prompt("Informe o segundo valor: "));
-
-    //primeiro número sejamenor
-    while(num1 > num2){
-        alert("O primeiro número deve ser menor que o segundo número!")
-        num1 = parseInt(prompt("Informe o primeiro valor: "));
-        num2 = parseInt(prompt("Informe o segundo valor: "));
-    }
-
-    //contagem
-    var soma = 0;
-    
-    //loop foor
-    for (i = num1; i <= num2; i++){
-        soma += i;
-    }
-
-    //calculo da média
-    var media = soma/86;
-
-    //saída
-    alert("A média aritimética dos números entre " + num1 + " e " + num2 + " é: " + media);
-
-
-</script>
+<script src="JavaScript/exercicio5.js"></script>
 </html>
